@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: black;
+  color: whitesmoke;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.active{
+  background-clip: text;
+  color: transparent;
+  background: linear-gradient(red,gold);
+  -webkit-background-clip: text;
+}

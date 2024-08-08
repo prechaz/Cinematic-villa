@@ -1,0 +1,43 @@
+
+.login{
+    width: 700px;
+    height: 500px;
+    margin: 100px auto;
+    border: 1px solid whitesmoke;
+    text-align: center;
+}
+.head{
+    background-color: red;
+    padding: 20px;
+}
+.inputfield{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.input{
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(60, 59, 57);
+    padding: 20px;
+    font-size: 20px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover{
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}

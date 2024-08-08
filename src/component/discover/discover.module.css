@@ -1,0 +1,32 @@
+.searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+.search{
+    border: none;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.168);
+    outline: none;
+    color: whitesmoke;
+    margin-top: 200px 0;
+}
+.list{
+    width: 1100px;
+    display: flex;
+    border-radius: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid grey;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height based on your layout */
+  }

@@ -1,0 +1,49 @@
+.footer{
+    width: 100%;
+    border-top: 1px solid whitesmoke;
+    display: flex;
+    padding: 50px 0 50px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    background-color: rgb(60, 59, 57);
+    padding: 20px;
+    outline: none;
+    font-size: 20px;
+}
+.subscribe{
+    width: 600px;
+    background-color:  rgb(60, 59, 57);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 8px;
+
+}
+.btn{
+    height: 100%;
+    padding: 10px 30px;
+    background-color: red;
+    border: none;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    width: 50px;
+}
+.title{
+    color: transparent;
+    background: linear-gradient(red,gold);
+    -webkit-background-clip: text;
+}

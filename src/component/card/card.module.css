@@ -1,0 +1,30 @@
+.card {
+  width: 310px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.seriesInfo{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.seriesName{
+  font-size: 9px;
+}
+.viewbtn{
+  margin-bottom: 10px;
+  border: none;
+  padding: 3px 10px;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+}

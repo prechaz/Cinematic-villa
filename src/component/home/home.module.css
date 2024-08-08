@@ -1,0 +1,7 @@
+.film{
+    width: 1080px;
+    border: 1px solid whitesmoke;
+    margin: 200px auto;
+    border-radius: 20px;
+    padding: 30px;
+}

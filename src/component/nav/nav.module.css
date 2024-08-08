@@ -1,0 +1,47 @@
+nav {
+  background-color: #000;
+  color: gold;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.link {
+    display: flex;
+    gap: 30px;
+    font-weight: 900;
+    cursor: pointer;
+}
+nav .active{
+    color: red;
+}
+.login{
+    border: none;
+    padding: 3px 10px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.signup{
+    border: none;
+    padding: 3px 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+.title{
+    background-clip: text;
+    font-style: italic;
+    color: transparent;
+    background: linear-gradient(red,gold);
+    -webkit-background-clip: text;
+    font-size: 30px;
+}
+.logo{
+    width: 100px;
+}
